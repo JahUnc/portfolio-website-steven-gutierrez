@@ -14,7 +14,7 @@ const intro =
 const career = 
     'My goal is to build a career in software development, with a growing interest ' +
     'in data science. So far I have worked with Python, Java, C#, SQL, and HTML/CSS, ' +
-    'and I am always looking for the next thing to learn. Thanks for visiting!'
+    'and I am always looking for the next thing to learn. If you need to contact me just click on my photo.'
 </script>
 
 <template>
