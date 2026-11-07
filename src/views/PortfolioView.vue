@@ -151,10 +151,6 @@ onMounted(() => loadRepos())
             </a>
           </h3>
 
-          <p class="repo-desc" :class="{ empty: !repo.description }">
-            {{ repo.description || 'No description provided.' }}
-          </p>
-
           <dl class="repo-meta">
             <div>
               <dt>Language <span lang="ja">言語</span></dt>
