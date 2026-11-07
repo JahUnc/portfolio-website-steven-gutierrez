@@ -6,11 +6,16 @@
   --color-ink: #111111;
   --color-accent: #e8a0b4;
   --color-sky: #8fb8de;
+  --color-ink-soft: #4b4b4b;
+  --color-accent-deep: #b4446c;
 
   /* Fonts */
   --font-display:"Silkscreen", monospace;
   --font-script: "Sacramento", cursive;
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  /* Japanese font */
+  --font-jp: "M PLUS Rounded 1c", system-ui, sans-serif;
 
   /* Notebook line spacing */
   --line: 3rem;

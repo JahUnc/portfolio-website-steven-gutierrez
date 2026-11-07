@@ -6,14 +6,14 @@ import profileImg from '../assets/portrait.jpg'
 const tiles = [
     {
         label: 'Highlights',
-        href: '#highlights',
+        to:'/portfolio',
         src: highlightsImg,
         alt: 'Pink and white flowers',
         position: 'center',
     },
     {
         label: 'Contact',
-        href: '#contact',
+        to: '/about',
         src: profileImg,
         alt: 'Portrait of Steven Gutierrez',
         position: 'top'
@@ -23,19 +23,19 @@ const tiles = [
 
 <template>
     <aside class="tiles">
-        <a
-            v-for="tile in tiles"
-            :key="tile.label"
-            :href="tile.href"
-            class="tile"
+        <RouterLink
+          v-for="tile in tiles"
+          :key="tile.label"
+          :to="tile.to"
+          class="tile"
         >
-            <img    
-                :src="tile.src"
-                :alt="tile.alt"
-                :style="{ objectPosition: tile.position }"
-            />
-            <span class="tile-label">{{ tile.label }}</span>
-        </a>
+          <img    
+              :src="tile.src"
+              :alt="tile.alt"
+              :style="{ objectPosition: tile.position }"
+          />
+          <span class="tile-label">{{ tile.label }}</span>
+        </RouterLink>
     </aside>
 </template>
 
