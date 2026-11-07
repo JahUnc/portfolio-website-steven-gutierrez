@@ -8,8 +8,8 @@
   --color-sky: #8fb8de;
 
   /* Fonts */
-  --font-display: "Silkscreen", monospace;
-  --font-script: "Indie Flower", cursive;
+  --font-display:"Silkscreen", monospace;
+  --font-script: "Sacramento", cursive;
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   /* Notebook line spacing */
@@ -44,3 +44,4 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
